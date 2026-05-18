@@ -44,7 +44,6 @@ Raytracer/
 │   │   └── Factory.hpp/cpp               # Primitive and light creation
 │   ├── light/
 │   │   ├── ILight.hpp                    # Light interface
-│   │   ├── ALight.hpp/cpp                # Abstract light class
 │   │   ├── LightManager.hpp/cpp          # Lighting and shadows
 │   │   ├── ambient/
 │   │   │   └── AmbientLight.hpp/cpp      # Ambient light

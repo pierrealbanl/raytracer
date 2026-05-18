@@ -76,9 +76,6 @@ public:
      * instead of m[row][col].
      */
     Vec3 getNormalAt(const Ray &r, double t) override;
-
-    double localHit(const Ray &localRay) override = 0;
-    Vec3 localNormalAt(const Ray &localRay, double t) override = 0;
 private:
     Matrix4 _m;
     Matrix4 _invM;

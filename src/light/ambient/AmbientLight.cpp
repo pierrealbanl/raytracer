@@ -9,3 +9,8 @@ Vec3 AmbientLight::getIntensity(const Vec3 &camHitPoint, const Vec3 &normal, con
     (void)lightDir;
     return colorRGB * _params.intensity;
 }
+
+std::optional<Vec3> AmbientLight::getLightDirection(const Vec3 &camHitPoint) const {
+    (void)camHitPoint;
+    return std::nullopt;
+}

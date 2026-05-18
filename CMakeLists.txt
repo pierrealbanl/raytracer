@@ -17,7 +17,6 @@ add_executable(raytracer
     src/primitives/PrimitiveManager.cpp
     src/primitives/sphere/Sphere.cpp
     src/primitives/plane/Plane.cpp
-    src/light/ALight.cpp
     src/light/LightManager.cpp
     src/light/ambient/AmbientLight.cpp
     src/light/directional/DirectionalLight.cpp

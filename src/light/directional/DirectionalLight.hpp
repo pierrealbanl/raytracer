@@ -1,9 +1,9 @@
 #ifndef DIRECTIONAL_LIGHT_HPP
 #define DIRECTIONAL_LIGHT_HPP
 
-#include "../ALight.hpp"
+#include "../ILight.hpp"
 
-class DirectionalLight : public ALight {
+class DirectionalLight : public ILight {
 public:
     DirectionalLight(const LightParams &params);
     ~DirectionalLight() override = default;
